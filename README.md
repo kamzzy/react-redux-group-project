@@ -1,6 +1,6 @@
 # Space trveller web App
 
-> In this task, we developed a space traveller service with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions as well as unsubcribe to the missions.
+> This space traveler service App was built for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions as well as unsubscribe from the missions..
 
 
 
