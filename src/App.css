@@ -36,9 +36,9 @@ code {
   flex-direction: row;
 }
 
-.navbar h3 {
-  padding-right: 36%;
+.title {
   color: #015199;
+  text-align: center;
 }
 
 .nav-links {
