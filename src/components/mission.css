@@ -13,9 +13,10 @@ td,
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #9dadb5;
 }
 
 thead {
-  border-bottom: 3px solid gray;
+  background-color: #015199;
+  color: white;
 }

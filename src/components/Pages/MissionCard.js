@@ -11,10 +11,10 @@ const MissionCard = ({ mission }) => {
       <tr className="innerTable-row">
         <td className="bord">{mission.mission_name}</td>
         <td>{mission.description}</td>
-        <td className="btn-act">{mission.reserved ? <p className="act-user">Active User</p> : <p className="not-act">Not Member</p>}</td>
+        <td className="btn-act">{mission.reserved ? <p className="act-user m-4">Active User</p> : <p className="m-4 not-act">Not Member</p>}</td>
         <td>
           {(
-          mission.reserved ? <button type="button" className="leave-btn" onClick={() => dispatch(changeStatus(mission.mission_id))}>Leave mission</button> : <button type="button" className="join-btn" onClick={() => dispatch(changeStatus(mission.mission_id))}>Join mission</button>
+          mission.reserved ? <button type="button" className="leave-btn m-4" onClick={() => dispatch(changeStatus(mission.mission_id))}>Leave mission</button> : <button type="button" className="join-btn m-4" onClick={() => dispatch(changeStatus(mission.mission_id))}>Join mission</button>
         )}
         </td>
       </tr>

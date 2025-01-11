@@ -38,6 +38,7 @@ code {
 
 .navbar h3 {
   padding-right: 36%;
+  color: #015199;
 }
 
 .nav-links {
@@ -48,6 +49,7 @@ code {
 
 .nav-links li a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .navLogo {
@@ -57,12 +59,16 @@ code {
 }
 
 .missionNav {
-  border-right: 2px solid rgb(44, 44, 204);
+  border-right: 2px solid #015199;
   padding-right: 5px;
 }
 
 .nav-links li .active {
-  text-decoration: underline;
+  border: solid #015199;
+  background-color: #015199;
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
 }
 
 .rocketImg img {
@@ -71,18 +77,24 @@ code {
   padding: 10px 0 0 35px;
 }
 
+.cardRock h3 {
+  color: #015199;
+}
+
 .row2 {
   padding: 12px 0;
 }
 
 .rockBtn {
-  background-color: blue;
+  background-color: #015199;
   color: white;
-  border: none;
+  border: solid;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 .reserved {
-  background-color: rgb(10, 146, 191);
+  background-color: #015199;
   color: white;
   margin-right: 10px;
   padding: 1px 3px;
@@ -91,26 +103,26 @@ code {
 
 .rockCancel {
   border: 1px solid;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
 }
 
 .missionList,
 .rocketList {
-  border: solid 0.5px rgb(208, 203, 203);
-  font-size: large;
+  border: solid 1px #015199;
+  border-radius: 6px;
 }
 
-.rocketList {
-  border: solid 0.5px rgb(208, 203, 203);
-  font-size: large;
-}
-
-.rocketList li {
+.rocketList li,
+.res-mission {
   list-style: none;
-  border-bottom: solid 0.5px rgb(208, 203, 203);
   display: block;
+  font-weight: bold;
+  color: #015199;
 }
 
-.rocketList ul {
+/* .rocketList ul {
   padding: 0;
   margin: 0;
-}
+} */

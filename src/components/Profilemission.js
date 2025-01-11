@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './ProfileMission.css';
+
 // import PropTypes from 'prop-types';
 
 const Profilemission = () => {

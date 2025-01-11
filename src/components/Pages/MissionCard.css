@@ -11,28 +11,30 @@ td {
 }
 
 .leave-btn {
-  border: 1px solid hsl(0, 73%, 54%);
+  border: 1px solid red;
+  background-color: red;
   font-size: 15px;
-  border-radius: 5px;
-  color: hsl(0, 73%, 54%);
+  border-radius: 6px;
+  color: white;
   padding: 10px;
   width: max-content;
 }
 
 .join-btn {
-  border: 1px solid rgb(56, 54, 54);
+  border: 1px solid #015199;
   font-size: 15px;
-  border-radius: 5px;
-  color: rgb(56, 54, 54);
+  border-radius: 6px;
+  background-color: #015199;
+  color: white;
   padding: 10px;
   width: max-content;
 }
 
 .act-user {
-  border: 1px solid darkturquoise;
+  border: 1px solid #015199;
   border-radius: 10px;
   padding: 6px;
-  background: darkturquoise;
+  background: #015199;
   color: #fff;
   font-weight: 600;
   font-size: 17px;
@@ -41,7 +43,7 @@ td {
 
 .not-act {
   border: 1px solid grey;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 6px;
   background: grey;
   color: #fff;
@@ -57,10 +59,10 @@ td {
 
 /* @media (max-width: 768px) {
   .act-user {
-    border: 1px solid darkturquoise;
+    border: 1px solid #015199;
     border-radius: 10px;
     padding: 6px;
-    background: darkturquoise;
+    background: #015199;
     color: #fff;
     font-weight: 600;
     font-size: 10px;
