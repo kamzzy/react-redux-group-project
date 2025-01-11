@@ -9,7 +9,7 @@ const Profilemission = () => {
   return (
     <li className="res-mission">
       {reservedMission.map((mission) => (
-        <span key={mission.mission_id}>{mission.mission_name}</span>
+        <p key={mission.mission_id}>{mission.mission_name}</p>
       ))}
     </li>
   );

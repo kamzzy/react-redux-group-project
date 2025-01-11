@@ -7,7 +7,9 @@ const RocketList = () => {
   return (
     <ul className="rocket-ul">
       {reservedDisplay.map((display) => (
-        <li key={display.id}>{display.rocket_name}</li>
+        <li key={display.id}>
+          <p>{display.rocket_name}</p>
+        </li>
       ))}
     </ul>
   );

@@ -112,6 +112,7 @@ code {
 .rocketList {
   border: solid 1px #015199;
   border-radius: 6px;
+  text-transform: capitalize;
 }
 
 .rocketList li,
