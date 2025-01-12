@@ -13,7 +13,7 @@
 - SpaceX API
 
 ## Live Demo 
-[Demo Link](https://spacetravellershub.onrender.com/p)
+[Demo Link](https://spacetravellershub.onrender.com/)
 
 
 
